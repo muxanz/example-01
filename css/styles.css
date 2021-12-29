@@ -42,6 +42,7 @@ header p {
 }
 
 /* Hero */
+
 .hero {
     text-align: center;
     padding: 1.5rem;
@@ -93,7 +94,8 @@ header p {
 
 /* Galery */
 .galery {
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
+    margin: 6rem 0;
 }
 
 .galery .card {
@@ -165,3 +167,18 @@ header p {
 }
 
 /* Footer */
+footer {
+    background-color: #fff;
+    font-size: 1.7rem;
+    color: #55595c;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+
+
+footer a:visited, a:active{
+    color: #0d6efd;
+}
