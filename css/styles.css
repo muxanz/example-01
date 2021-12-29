@@ -9,6 +9,8 @@ body {
     box-sizing: border-box;
 }
 
+/* General */
+
 .container {
     max-width: 100rem;
     margin: 0 auto;
@@ -19,10 +21,12 @@ body {
     letter-spacing: .5rem;
 }
 
+/* Header */
+
 header {
     background-color: #212529;
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,3 +41,127 @@ header p {
     letter-spacing: .1rem;
 }
 
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 3rem 0 1rem 0;
+}
+
+.hero p {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #6c757d;
+    margin: 0 0 2.5rem 0;
+}
+
+.btn {
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem;
+    border: .2rem solid transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-right: .3rem;
+}
+
+.blue:active {
+    background-color: #fff;
+    color: #0d6efd;
+}
+
+.grey {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.grey:active {
+    background-color: #fff;
+    color: #6c757d;
+}
+
+/* Galery */
+.galery {
+    background-color: #f8f9fa;
+}
+
+.galery .card {
+    background-color: #fff;
+    padding-bottom: 2rem;
+    margin: 1.5rem 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.card .thumbnail {
+    background-color: #55595c;
+    width: 100%;
+    height: 25rem;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    font-size: 1.7rem;
+    padding: 0 1.5rem;
+}
+
+.card .btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.btns .btn-card {
+    padding: .7rem;
+    border: .1rem solid transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btns .view {
+    background-color: #fff;
+    border-color: #6c757d;
+    color: #6c757d;
+    margin-right: -.3rem;
+}
+
+.view:active {
+    background-color: #55595c;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btns .edit {
+    background-color: #55595c;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.edit:active {
+    background-color: #fff;
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btns small {
+    font-size: 1.6rem;
+    color: #6c757d;
+}
+
+/* Footer */
