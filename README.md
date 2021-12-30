@@ -2,4 +2,6 @@
 
 Proyecto básico, desarrollado con html y css, aplicando responsive design, tomando como ejemplo una plantilla libre de Bootstrap.
 
-## Para ver el sitio 🚀
+## Para ver el sitio aquí🚀
+
+https://example-01.netlify.app/
